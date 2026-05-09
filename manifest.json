@@ -1,12 +1,26 @@
 {
   "id": "random-note",
   "name": "隨機筆記",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "minHydayVersion": "0.6.0",
   "description": "從你的筆記中隨機選一篇打開。沒靈感時的解藥。",
   "author": "Hyday Team",
   "authorUrl": "https://hyday.web.app",
   "permissions": ["notes:read", "ui:sidebar", "ui:commands"],
-  "tags": ["productivity", "discovery"]
+  "tags": ["productivity", "discovery"],
+  "i18n": {
+    "default": "zh-TW",
+    "supported": ["zh-TW", "en", "zh-CN"],
+    "names": {
+      "zh-TW": "隨機筆記",
+      "en": "Random Note",
+      "zh-CN": "随机笔记"
+    },
+    "descriptions": {
+      "zh-TW": "從你的筆記中隨機選一篇打開。沒靈感時的解藥。",
+      "en": "Open a random note from your library. The cure for blank-page paralysis.",
+      "zh-CN": "从你的笔记中随机选一篇打开。没灵感时的解药。"
+    }
+  }
 }
