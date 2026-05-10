@@ -25,6 +25,7 @@ class RandomNotePlugin {
         label: '開啟隨機筆記',
         keywords: ['random', '隨機', 'shuffle'],
         section: 'Plugin',
+        icon: 'Shuffle',
         run: openRandom,
       }),
     );
